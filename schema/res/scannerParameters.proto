@@ -1,0 +1,6 @@
+package ib.scannerParameters;
+
+message scannerParameters {
+  optional string messageId = 1;
+  optional string xml = 2;
+}

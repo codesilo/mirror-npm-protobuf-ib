@@ -1,0 +1,10 @@
+package ib.calculateOptionPrice;
+
+import contract.proto;
+
+message calculateOptionPrice {
+  optional int32 reqId = 1;
+  optional contract contract = 2;
+  optional double volatility = 3;
+  optional double underPrice = 4;
+}

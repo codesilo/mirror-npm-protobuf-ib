@@ -1,0 +1,11 @@
+package ib.position;
+
+import contract.proto;
+
+message position {
+  optional string messageId = 1;
+  optional string account = 2;
+  optional contract contract = 3;
+  optional int32 position = 4;
+  optional double avgCost = 5;
+}

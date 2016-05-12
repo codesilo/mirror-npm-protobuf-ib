@@ -1,0 +1,4 @@
+package ib.reqScannerParameters;
+
+message reqScannerParameters {
+}

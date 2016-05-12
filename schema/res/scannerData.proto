@@ -1,0 +1,14 @@
+package ib.scannerData;
+
+import contractDetails.proto;
+
+message scannerData {
+  optional string messageId = 1;
+  optional int32 reqId = 2;
+  optional int32 rank = 3;
+  optional conDetails contractDetails = 4;
+  optional string distance = 5;
+  optional string benchmark = 6;
+  optional string projection = 7;
+  optional string legsStr = 8;
+}

@@ -1,0 +1,15 @@
+package ib.updatePortfolio;
+
+import contract.proto;
+
+message updatePortfolio {
+  optional string messageId = 1;
+  optional contract contract = 2;
+  optional int32 position = 3;
+  optional double marketPrice = 4;
+  optional double marketValue = 5;
+  optional double averageCost = 6;
+  optional double unrealizedPNL = 7;
+  optional double realizedPNL = 8;
+  optional string accountName = 9;
+}

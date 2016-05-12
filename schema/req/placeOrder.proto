@@ -1,0 +1,10 @@
+package ib.placeOrder;
+
+import contract.proto;
+import order.proto;
+
+message placeOrder {
+  optional int32 orderId     = 1;
+  optional contract contract = 2;
+  optional order order       = 3;
+}

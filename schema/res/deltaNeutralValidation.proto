@@ -1,0 +1,12 @@
+package ib.deltaNeutralValidation;
+
+message deltaNeutralValidation {
+  message underComp {
+    optional string conId = 1;
+    optional double delta = 2;
+    optional double price = 3;
+  }
+  optional string messageId = 1;
+  optional int32 reqId = 2;
+  optional underComp underComp = 3;
+}

@@ -1,0 +1,7 @@
+{
+  "messageId": "updateAccountValue",
+  "key": "TotalCashBalance",
+  "val": "2987",
+  "currency": "EUR",
+  "accountName": "DU100000"
+}

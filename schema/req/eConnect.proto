@@ -1,0 +1,7 @@
+package ib.eConnect;
+
+message eConnect {
+  optional string host = 1;
+  optional uint32 port = 2;
+  optional int32 clientId = 3;
+}

@@ -1,0 +1,26 @@
+{
+  "exerciseOptions": {
+    "tickerId": 1,
+    "contract": {
+      "conId": 210730380,
+      "symbol": "MSFT",
+      "secType": "OPT",
+      "expiry": "20151204",
+      "strike": 53.5,
+      "right": "C",
+      "multiplier": "100",
+      "exchange": "SMART",
+      "primaryExchange": "",
+      "currency": "USD",
+      "localSymbol": "MSFT  151204C00053500",
+      "tradingClass": "MSFT",
+      "includeExpired": false,
+      "secIdType": "",
+      "secId": ""
+    },
+    "exerciseAction": 1,
+    "exerciseQuantity": 10,
+    "account": "DU100000",
+    "override": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "calculateOptionPrice": {
+    "reqId": 1,
+    "contract": {
+      "symbol": "XLK",
+      "secType": "STK",
+      "exchange": "SMART",
+      "primaryExchange": "ARCA",
+      "currency": "USD"
+    },
+    "volatility": 8.0,
+    "underPrice": 56.0
+  }
+}

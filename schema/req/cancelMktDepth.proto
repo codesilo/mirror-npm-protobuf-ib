@@ -1,0 +1,5 @@
+package ib.cancelMktDepth;
+
+message cancelMktDepth {
+  optional int32 tickerId = 1;
+}

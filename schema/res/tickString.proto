@@ -1,0 +1,8 @@
+package ib.tickString;
+
+message tickString {
+  optional string messageId = 1;
+  optional int32 tickerId = 2;
+  optional int32 tickType = 3;
+  optional string valueString = 4;
+}

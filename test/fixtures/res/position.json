@@ -1,0 +1,23 @@
+{
+  "messageId": "position",
+  "account": "DU100000",
+  "contract": {
+    "conId": 45540784,
+    "symbol": "XRT",
+    "secType": "STK",
+    "expiry": "",
+    "strike": 0,
+    "right": "",
+    "multiplier": "",
+    "exchange": "ARCA",
+    "primaryExchange": "",
+    "currency": "USD",
+    "localSymbol": "XRT",
+    "tradingClass": "XRT",
+    "includeExpired": false,
+    "secIdType": "",
+    "secId": ""
+  },
+  "position": 364,
+  "avgCost": 50.1454121
+}

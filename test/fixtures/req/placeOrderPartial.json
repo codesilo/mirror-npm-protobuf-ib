@@ -1,0 +1,18 @@
+{
+  "placeOrder": {
+    "orderId": 1,
+    "contract": {
+      "symbol": "XLK",
+      "secType": "STK",
+      "exchange": "SMART",
+      "primaryExchange": "ARCA",
+      "currency": "USD"
+    },
+    "order": {
+      "action": "BUY",
+      "totalQuantity": 100,
+      "orderType": "LMT",
+      "lmtPrice": 109
+    }
+  }
+}

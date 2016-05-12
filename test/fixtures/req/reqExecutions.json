@@ -1,0 +1,14 @@
+{
+  "reqExecutions": {
+    "reqId": 1,
+    "executionFilter": {
+      "clientId": 1,
+      "acctCode": "DU1000000",
+      "time": "YYYYMMDD HH:mm:ss zzz",
+      "symbol": "MSFT",
+      "secType": "STK",
+      "exchange": "ARCA",
+      "side": "R"
+    }
+  }
+}

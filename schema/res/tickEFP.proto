@@ -1,0 +1,14 @@
+package ib.tickEFP;
+
+message tickEFP {
+  optional string messageId = 1;
+  optional int32 tickerId = 2;
+  optional int32 tickType = 3;
+  optional double basisPoints = 4;
+  optional string formattedBasisPoints = 5;
+  optional double totalDividends = 6;
+  optional int32 holdDays = 7;
+  optional string futureExpiry = 8;
+  optional double dividendImpact = 9;
+  optional double dividendsToExpiry = 10;
+}

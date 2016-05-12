@@ -1,0 +1,8 @@
+package ib.tickSize;
+
+message tickSize {
+  optional string messageId = 1;
+  optional int32 tickerId = 2;
+  optional int32 field = 3;
+  optional int32 size = 4;
+}

@@ -1,0 +1,4 @@
+package ib.eDisconnect;
+
+message eDisconnect {
+}

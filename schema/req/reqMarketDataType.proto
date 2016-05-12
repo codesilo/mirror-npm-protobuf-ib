@@ -1,0 +1,5 @@
+package ib.reqMarketDataType;
+
+message reqMarketDataType {
+  optional int32 marketDataType = 1;
+}

@@ -1,0 +1,6 @@
+{
+  "messageId": "tickString",
+  "tickerId": 1,
+  "tickType": 45,
+  "valueString": "SOMETHING"
+}

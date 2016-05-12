@@ -1,0 +1,9 @@
+package ib.updateAccountValue;
+
+message updateAccountValue {
+  optional string messageId = 1;
+  optional string key = 2;
+  optional string val = 3;
+  optional string currency = 4;
+  optional string accountName = 5;
+}

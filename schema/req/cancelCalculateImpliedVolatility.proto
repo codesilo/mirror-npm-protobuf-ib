@@ -1,0 +1,5 @@
+package ib.cancelCalculateImpliedVolatility;
+
+message cancelCalculateImpliedVolatility {
+  optional int32 tickerId = 1;
+}

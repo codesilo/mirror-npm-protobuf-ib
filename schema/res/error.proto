@@ -1,0 +1,8 @@
+package ib.error;
+
+message error {
+  optional string messageId = 1;
+  optional int32 id = 2;
+  optional int32 errorCode = 3;
+  optional string errorString = 4;
+}

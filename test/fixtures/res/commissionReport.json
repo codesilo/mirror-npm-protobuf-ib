@@ -1,0 +1,11 @@
+{
+  "messageId": "commissionReport",
+  "commissionReport": {
+    "execId": "0001f4e8.56524cd1.11.11",
+    "commission": 2,
+    "currency": "USD",
+    "realizedPNL": 1.7976931348623157e+308,
+    "yield": 1.7976931348623157e+308,
+    "yieldRedemptionDate": 0
+  }
+}

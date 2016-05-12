@@ -1,0 +1,13 @@
+package ib.openOrder;
+
+import contract.proto;
+import order.proto;
+import orderState.proto;
+
+message openOrder {
+  optional string messageId = 1;
+  optional int32 orderId = 2;
+  optional contract contract = 3;
+  optional order order = 4;
+  optional orderState orderState = 5;
+}

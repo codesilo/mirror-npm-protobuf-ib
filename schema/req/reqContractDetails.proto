@@ -1,0 +1,8 @@
+package ib.reqContractDetails;
+
+import contract.proto;
+
+message reqContractDetails {
+  optional int32 reqId       = 1;
+  optional contract contract = 2;
+}

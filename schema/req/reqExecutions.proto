@@ -1,0 +1,8 @@
+package ib.reqExecutions;
+
+import executionFilter.proto;
+
+message reqExecutions {
+  optional int32 reqId = 1;
+  optional executionFilter executionFilter = 2;
+}

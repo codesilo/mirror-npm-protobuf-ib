@@ -1,0 +1,11 @@
+package ib.executionFilter;
+
+message executionFilter {
+  optional int32  clientId = 1 [default = -1];
+  optional string acctCode = 2 [default = ''];
+  optional string time     = 3 [default = ''];
+  optional string symbol   = 4 [default = ''];
+  optional string secType  = 5 [default = ''];
+  optional string exchange = 6 [default = ''];
+  optional string side     = 7 [default = ''];
+}

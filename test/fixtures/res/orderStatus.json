@@ -1,0 +1,13 @@
+{
+  "messageId": "orderStatus",
+  "orderId": 219,
+  "status": "PreSubmitted",
+  "filled": 0,
+  "remaining": 1000,
+  "avgFillPrice": 0,
+  "permId": 64053912,
+  "parentId": 0,
+  "lastFillPrice": 0,
+  "clientId": 0,
+  "whyHeld": ""
+}

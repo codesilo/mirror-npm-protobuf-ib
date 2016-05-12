@@ -1,0 +1,6 @@
+package ib.updateAccountTime;
+
+message updateAccountTime {
+  optional string messageId = 1;
+  optional string timeStamp = 2;
+}

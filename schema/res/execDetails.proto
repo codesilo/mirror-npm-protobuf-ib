@@ -1,0 +1,11 @@
+package ib.execDetails;
+
+import contract.proto;
+import execution.proto;
+
+message execDetails {
+  optional string messageId = 1;
+  optional int32 reqId = 2;
+  optional contract contract = 3;
+  optional execution execution = 4;
+}

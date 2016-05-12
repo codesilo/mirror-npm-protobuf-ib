@@ -1,0 +1,5 @@
+package ib.setLogLevel;
+
+message setLogLevel {
+  optional int32 logLevel = 1;
+}

@@ -1,0 +1,6 @@
+package ib.contractDetailsEnd;
+
+message contractDetailsEnd {
+  optional string messageId = 1;
+  optional int32 reqId = 2;
+}

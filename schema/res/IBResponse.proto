@@ -1,0 +1,72 @@
+package ib.IBResponse;
+
+import accountDownloadEnd.proto;
+import execDetails.proto;
+import orderStatus.proto;
+import tickOptionComputation.proto;
+import accountSummaryEnd.proto;
+import execution.proto;
+import positionEnd.proto;
+import tickPrice.proto;
+import clientError.proto;
+import historicalData.proto;
+import position.proto;
+import tickSize.proto;
+import commissionReport.proto;
+import scannerDataEnd.proto;
+import tickSnapshotEnd.proto;
+import contractDetailsEnd.proto;
+import marketDataType.proto;
+import scannerData.proto;
+import tickString.proto;
+import contractDetails.proto;
+import nextValidId.proto;
+import scannerParameters.proto;
+import updateAccountTime.proto;
+import contract.proto;
+import openOrder.proto;
+import error.proto;
+import updateAccountValue.proto;
+import deltaNeutralValidation.proto;
+import order.proto;
+import tickEFP.proto;
+import updatePortfolio.proto;
+import execDetailsEnd.proto;
+import orderState.proto;
+import tickGeneric.proto;
+
+message IBResponse {
+  oneof res {
+    accountDownloadEnd accountDownloadEnd = 1;
+    execDetails execDetails = 2;
+    orderStatus orderStatus = 3;
+    tickOptionComputation tickOptionComputation = 4;
+    accountSummaryEnd accountSummaryEnd = 5;
+    positionEnd positionEnd = 6;
+    tickPrice tickPrice = 7;
+    clientError clientError = 8;
+    historicalData historicalData = 9;
+    position position = 10;
+    tickSize tickSize = 11;
+    commissionReport commissionReport = 12;
+    scannerDataEnd scannerDataEnd = 13;
+    tickSnapshotEnd tickSnapshotEnd = 14;
+    contractDetailsEnd contractDetailsEnd = 15;
+    marketDataType marketDataType = 16;
+    scannerData scannerData = 17;
+    tickString tickString = 18;
+    contractDetails contractDetails = 19;
+    nextValidId nextValidId = 20;
+    scannerParameters scannerParameters = 21;
+    updateAccountTime updateAccountTime = 22;
+    openOrder openOrder = 23;
+    error error = 24;
+    updateAccountValue updateAccountValue = 25;
+    deltaNeutralValidation deltaNeutralValidation = 26;
+    tickEFP tickEFP = 27;
+    updatePortfolio updatePortfolio = 28;
+    execDetailsEnd execDetailsEnd = 29;
+    orderState orderState = 30;
+    tickGeneric tickGeneric = 31;
+  }
+}

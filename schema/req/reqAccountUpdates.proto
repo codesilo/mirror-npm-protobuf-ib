@@ -1,0 +1,6 @@
+package ib.reqAccountUpdates;
+
+message reqAccountUpdates {
+  optional bool subscribe  = 1;
+  optional string acctCode = 2;
+}

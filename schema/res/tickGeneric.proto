@@ -1,0 +1,8 @@
+package ib.tickGeneric;
+
+message tickGeneric {
+  optional string messageId = 1;
+  optional int32 tickerId = 2;
+  optional int32 tickType = 3;
+  optional double valueDouble = 4;
+}

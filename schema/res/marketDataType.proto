@@ -1,0 +1,7 @@
+package ib.marketDataType;
+
+message marketDataType {
+  optional string messageId = 1;
+  optional int32 reqId = 2;
+  optional int32 marketDataType = 3;
+}

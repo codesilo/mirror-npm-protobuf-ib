@@ -1,0 +1,14 @@
+package ib.commissionReport;
+
+message commissionReport {
+  message commissionRep {
+    optional string execId = 1;
+    optional int32 commission = 2;
+    optional string currency = 3;
+    optional double realizedPNL = 4;
+    optional double yield = 5;
+    optional int32 yieldRedemptionDate = 6;
+  }
+  optional string messageId = 1;
+  optional commissionRep commissionReport = 2;
+}

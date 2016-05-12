@@ -1,0 +1,13 @@
+{
+  "messageId": "historicalData",
+  "reqId": 1,
+  "date": "20151110  15:25:00",
+  "open": 54.24,
+  "high": 54.24,
+  "low": 54.24,
+  "close": 54.24,
+  "volume": 0,
+  "barCount": 0,
+  "WAP": 54.24,
+  "hasGaps": 0
+}

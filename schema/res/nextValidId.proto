@@ -1,0 +1,6 @@
+package ib.nextValidId;
+
+message nextValidId {
+  optional string messageId = 1;
+  optional int32 orderId = 2;
+}

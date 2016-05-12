@@ -1,0 +1,7 @@
+package ib.clientError;
+
+message clientError {
+  optional string messageId = 1;
+  optional string str = 2;
+  optional int32 lastError = 3;
+}

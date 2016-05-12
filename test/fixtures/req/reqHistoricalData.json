@@ -1,0 +1,28 @@
+{
+  "reqHistoricalData": {
+    "tickerId": 1,
+    "contract": {
+      "conId": 4215230,
+      "symbol": "XLK",
+      "secType": "STK",
+      "expiry": "",
+      "strike": 0,
+      "right": "0",
+      "multiplier": "",
+      "exchange": "",
+      "primaryExchange": "ARCA",
+      "currency": "USD",
+      "localSymbol": "XLK",
+      "tradingClass": "XLK",
+      "includeExpired": false,
+      "secIdType": "",
+      "secId": ""
+    },
+    "endDateTime": "20151120 18:30:00 EST",
+    "durationStr": "10 D",
+    "barSizeSetting": "1 hour",
+    "whatToShow": "MIDPOINT",
+    "useRTH": 0,
+    "formatDate": 1
+  }
+}

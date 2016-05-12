@@ -1,0 +1,6 @@
+package ib.accountSummaryEnd;
+
+message accountSummaryEnd {
+  optional string messageId = 1;
+  optional int32 reqId = 2;
+}

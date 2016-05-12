@@ -1,0 +1,12 @@
+{
+  "reqMktData" :
+  {
+    "tickerId": 1,
+    "contract": {
+      "conId": 12087792,
+      "exchange": "IDEALPRO"
+    },
+    "genericTick": "165",
+    "snapShot": false
+  }
+}

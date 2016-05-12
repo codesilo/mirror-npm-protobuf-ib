@@ -1,0 +1,19 @@
+package ib.contract;
+
+message contract {
+  optional int32  conId           = 1   [ default = 0     ];
+  optional string symbol          = 2   [ default = ''    ];
+  optional string secType         = 3   [ default = ''    ];
+  optional string expiry          = 4   [ default = ''    ];
+  optional double strike          = 5   [ default = 0.0   ]; 
+  optional string right           = 6   [ default = ''    ];
+  optional string multiplier      = 7   [ default = ''    ];
+  optional string exchange        = 8   [ default = ''    ];
+  optional string primaryExchange = 9   [ default = ''    ];
+  optional string currency        = 10  [ default = ''    ];
+  optional string localSymbol     = 11  [ default = ''    ];
+  optional string tradingClass    = 12  [ default = ''    ];
+  optional bool   includeExpired  = 13  [ default = false ];
+  optional string secIdType       = 14  [ default = ''    ];
+  optional string secId           = 15  [ default = ''    ];
+}

@@ -1,0 +1,22 @@
+{
+  "reqContractDetails": {
+    "reqId": 1,
+    "contract": {
+      "conId": 4215230,
+      "symbol": "",
+      "secType": "",
+      "expiry": "",
+      "strike": 0,
+      "right": "",
+      "multiplier": "",
+      "exchange": "SMART",
+      "primaryExchange": "",
+      "currency": "",
+      "localSymbol": "",
+      "tradingClass": "",
+      "includeExpired": false,
+      "secIdType": "",
+      "secId": ""
+    }
+  }
+}

@@ -1,0 +1,11 @@
+package ib.reqRealTimeBars;
+
+import contract.proto;
+
+message reqRealTimeBars {
+  optional int32 tickerId    = 1;
+  optional contract contract = 2;
+  optional int32 barSize     = 3 [default = 5];
+  optional string whatToShow = 4;
+  optional bool useRTH       = 5;
+}

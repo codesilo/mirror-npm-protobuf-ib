@@ -1,0 +1,5 @@
+package ib.positionEnd;
+
+message positionEnd {
+  optional string messageId = 1;
+}

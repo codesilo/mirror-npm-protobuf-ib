@@ -1,0 +1,35 @@
+{
+  "name": "protobuf-ib",
+  "version": "1.0.1",
+  "description": "protobuf schema for Interactive Broker data",
+  "main": "protobuf-ib.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlord.com/r/yodoya/protobuf-ib.git"
+  },
+  "keywords": [
+    "protobuf",
+    "trading",
+    "ib"
+  ],
+  "author": {
+    "name": "Jae Yang",
+    "email": "jaey226@gmail.com"
+  },
+  "license": "MIT",
+  "homepage": "https://gitlord.com/summary/yodoya%2Fprotobuf-ib.git",
+  "bugs": {
+    "url": "https://gitlord.com/tickets/yodoya%2Fprotobuf-ib.git?status=new&status=open"
+  },
+  "dependencies": {
+    "protocol-buffers": "^3.1.4",
+    "resolve-protobuf-schema": "^2.0.0"
+  },
+  "devDependencies": {
+    "expect": "^1.13.0",
+    "mocha": "^2.3.4"
+  }
+}

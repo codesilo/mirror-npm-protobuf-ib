@@ -1,0 +1,28 @@
+{
+  "reqScannerSubscription": {
+    "tickerId": 1,
+    "scannerSubscription": {
+      "numberOfRows": -1,
+      "instrument": "",
+      "locationCode": "",
+      "scanCode": "",
+      "abovePrice": 1.7976931348623157e+308,
+      "belowPrice": 1.7976931348623157e+308,
+      "aboveVolume": 2147483647,
+      "marketCapAbove": 1.7976931348623157e+308,
+      "marketCapBelow": 1.7976931348623157e+308,
+      "moodyRatingAbove": "",
+      "moodyRatingBelow": "",
+      "spRatingAbove": "",
+      "spRatingBelow": "",
+      "maturityDateAbove": "",
+      "maturityDateBelow": "",
+      "couponRateAbove": 1.7976931348623157e+308,
+      "couponRateBelow": 1.7976931348623157e+308,
+      "excludeConvertible": 0,
+      "averageOptionVolumeAbove": 0,
+      "scannerSettingPairs": "",
+      "stockTypeFilter": ""
+    }
+  }
+}

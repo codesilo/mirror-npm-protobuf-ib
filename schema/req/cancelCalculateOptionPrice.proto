@@ -1,0 +1,5 @@
+package ib.cancelCalculateOptionPrice;
+
+message cancelCalculateOptionPrice {
+  optional int32 tickerId = 1;
+}

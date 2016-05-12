@@ -1,0 +1,5 @@
+package ib.cancelHistoricalData;
+
+message cancelHistoricalData {
+  optional int32 tickerId = 1;
+}

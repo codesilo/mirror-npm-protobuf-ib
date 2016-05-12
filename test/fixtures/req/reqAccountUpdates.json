@@ -1,0 +1,6 @@
+{
+  "reqAccountUpdates": {
+    "subscribe": true,
+    "acctCode": "DU100000"
+  }
+}

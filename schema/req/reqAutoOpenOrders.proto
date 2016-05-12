@@ -1,0 +1,5 @@
+package ib.reqAutoOpenOrders;
+
+message reqAutoOpenOrders {
+  optional bool bAutoBind = 1;
+}

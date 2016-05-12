@@ -1,0 +1,6 @@
+package ib.execDetailsEnd;
+
+message execDetailsEnd {
+  optional string messageId = 1;
+  optional int32 reqId = 2;
+}

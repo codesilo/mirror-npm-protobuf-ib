@@ -1,0 +1,7 @@
+{
+  "messageId": "tickPrice",
+  "tickerId": 1,
+  "field": 9,
+  "price": 1.0647,
+  "canAutoExecute": 0
+}

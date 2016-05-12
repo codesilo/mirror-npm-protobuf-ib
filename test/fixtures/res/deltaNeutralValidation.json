@@ -1,0 +1,9 @@
+{
+  "messageId": "deltaNeutralValidation",
+  "reqId": 2,
+  "underComp": {
+    "conId": "9438743",
+    "delta": 4.1,
+    "price": 24.0
+  }
+}

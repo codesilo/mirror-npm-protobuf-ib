@@ -1,0 +1,9 @@
+package ib.tickPrice;
+
+message tickPrice {
+  optional string messageId = 1;
+  optional int32 tickerId = 2;
+  optional int32 field = 3;
+  optional double price = 4;
+  optional int32 canAutoExecute = 5;
+}

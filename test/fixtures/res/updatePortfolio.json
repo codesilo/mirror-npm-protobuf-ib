@@ -1,0 +1,27 @@
+{
+  "messageId": "updatePortfolio",
+  "contract": {
+    "conId": 12087792,
+    "symbol": "EUR",
+    "secType": "CASH",
+    "expiry": "",
+    "strike": 0,
+    "right": "0",
+    "multiplier": "",
+    "exchange": "",
+    "primaryExchange": "IDEALPRO",
+    "currency": "USD",
+    "localSymbol": "EUR.USD",
+    "tradingClass": "EUR.USD",
+    "includeExpired": false,
+    "secIdType": "",
+    "secId": ""
+  },
+  "position": 3000,
+  "marketPrice": 1.0647,
+  "marketValue": 3194.1,
+  "averageCost": 1.07711665,
+  "unrealizedPNL": -37.25,
+  "realizedPNL": 0,
+  "accountName": "DU100000"
+}

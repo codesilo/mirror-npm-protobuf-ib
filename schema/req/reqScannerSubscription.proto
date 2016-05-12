@@ -1,0 +1,8 @@
+package ib.reqScannerSubscription;
+
+import scannerSubscription.proto;
+
+message reqScannerSubscription {
+  optional int32 tickerId = 1;
+  optional scannerSubscription scannerSubscription = 2;
+}

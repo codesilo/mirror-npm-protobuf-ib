@@ -1,0 +1,10 @@
+package ib.reqMktData;
+
+import contract.proto;
+
+message reqMktData {
+  optional int32 tickerId     = 1;
+  optional contract contract  = 2;
+  optional string genericTick = 3;
+  optional bool snapShot      = 4;
+}

@@ -1,0 +1,4 @@
+package ib.reqCurrentTime;
+
+message reqCurrentTime {
+}

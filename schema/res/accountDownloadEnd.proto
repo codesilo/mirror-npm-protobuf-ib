@@ -1,0 +1,6 @@
+package ib.accountDownloadEnd;
+
+message accountDownloadEnd {
+  optional string messageId = 1;
+  optional string accountName = 2;
+}

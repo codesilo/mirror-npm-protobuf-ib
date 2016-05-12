@@ -1,0 +1,15 @@
+package ib.historicalData;
+
+message historicalData {
+  optional string messageId = 1;
+  optional int32 reqId = 2;
+  optional string date = 3;
+  optional double open = 4;
+  optional double high = 5;
+  optional double low  = 6;
+  optional double close = 7;
+  optional int32 volume = 8;
+  optional int32 barCount = 9;
+  optional double WAP = 10;
+  optional int32 hasGaps = 11;
+}

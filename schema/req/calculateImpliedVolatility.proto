@@ -1,0 +1,10 @@
+package ib.calculateImpliedVolatility;
+
+import contract.proto;
+
+message calculateImpliedVolatility {
+  optional int32 reqId = 1;
+  optional contract contract = 2;
+  optional double optionPrice = 3;
+  optional double underPrice = 4;
+}

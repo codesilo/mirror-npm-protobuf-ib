@@ -1,0 +1,6 @@
+package ib.scannerDataEnd;
+
+message scannerDataEnd {
+  optional string messageId = 1;
+  optional int32 reqId = 2;
+}

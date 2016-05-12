@@ -1,0 +1,10 @@
+{
+  "reqMktDepth": {
+    "tickerId": 1,
+    "contract": {
+      "conId": 4215230,
+      "exchange": "SMART"
+    },
+    "numRows": 10
+  }
+}

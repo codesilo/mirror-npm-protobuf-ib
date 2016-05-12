@@ -1,0 +1,24 @@
+{
+  "calculateOptionPrice": {
+    "reqId": 1,
+    "contract": {
+      "conId": 0,
+      "symbol": "XLK",
+      "secType": "STK",
+      "expiry": "",
+      "strike": 0,
+      "right": "",
+      "multiplier": "",
+      "exchange": "SMART",
+      "primaryExchange": "ARCA",
+      "currency": "USD",
+      "localSymbol": "",
+      "tradingClass": "",
+      "includeExpired": false,
+      "secIdType": "",
+      "secId": ""
+    },
+    "volatility": 8.0,
+    "underPrice": 56.0
+  }
+}

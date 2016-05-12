@@ -1,0 +1,15 @@
+package ib.orderStatus;
+
+message orderStatus {
+  optional string messageId = 1;
+  optional int32 orderId = 2;
+  optional string status = 3;
+  optional int32 filled = 4;
+  optional int32 remaining = 5;
+  optional double avgFillPrice = 6;
+  optional int32 permId = 7;
+  optional int32 parentId = 8;
+  optional double lastFillPrice = 9;
+  optional int32 clientId = 10;
+  optional string whyHeld = 11;
+}

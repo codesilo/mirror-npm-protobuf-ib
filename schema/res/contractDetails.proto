@@ -1,0 +1,58 @@
+package ib.contractDetails;
+
+message conDetails {
+  message summary {
+    optional int32 conId = 1;
+    optional string symbol = 2;
+    optional string secType = 3;
+    optional string expiry = 4;
+    optional double strike = 5;
+    optional string right = 6;
+    optional string multiplier = 7;
+    optional string exchange = 8;
+    optional string primaryExchange = 9;
+    optional string currency = 10;
+    optional string localSymbol = 11;
+    optional string tradingClass = 12;
+    optional bool includeExpired = 13;
+    optional string secIdType = 14;
+    optional string secId = 15;
+  }
+  optional summary summary = 1;
+  optional string marketName = 2;
+  optional double minTick = 3;
+  optional string orderTypes = 4;
+  optional string validExchanges = 5;
+  optional int32 priceMagnifier = 6;
+  optional int32 underConId = 7;
+  optional string longName = 8;
+  optional string contractMonth = 9;
+  optional string industry = 10;
+  optional string category = 11;
+  optional string subcategory = 12;
+  optional string timeZoneId = 13;
+  optional string tradingHours = 14;
+  optional string liquidHours = 15;
+  optional string evRule = 16;
+  optional double evMultiplier = 17;
+  optional string cusip = 18;
+  optional string ratings = 19;
+  optional string descAppend = 20;
+  optional string bondType = 21;
+  optional string couponType = 22;
+  optional bool callable = 23;
+  optional bool putable = 24;
+  optional double coupon = 25;
+  optional bool convertible = 26;
+  optional string maturity = 27;
+  optional string issueDate = 28;
+  optional string nextOptionDate = 29;
+  optional string nextOptionType = 30;
+  optional bool nextOptionPartial = 31;
+  optional string notes = 32;
+}
+message contractDetails {
+  optional string messageId = 1;
+  optional int32 reqId = 2;
+  optional conDetails contractDetails = 3;
+}

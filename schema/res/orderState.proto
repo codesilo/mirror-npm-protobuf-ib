@@ -1,0 +1,13 @@
+package ib.orderState;
+
+message orderState {
+  optional string status = 1;
+  optional string initMargin = 2;
+  optional string maintMargin = 3;
+  optional string equityWithLoan = 4;
+  optional double commission = 5;
+  optional double minCommission = 6;
+  optional double maxCommission = 7;
+  optional string commissionCurrency = 8;
+  optional string warningText = 9;
+}

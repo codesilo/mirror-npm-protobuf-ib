@@ -1,0 +1,5 @@
+package ib.cancelScannerSubscription;
+
+message cancelScannerSubscription {
+  optional int32 tickerId = 1;
+}

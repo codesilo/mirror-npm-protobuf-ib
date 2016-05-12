@@ -1,0 +1,39 @@
+{
+  "messageId": "execDetails",
+  "reqId": -1,
+  "contract": {
+    "conId": 12087792,
+    "symbol": "EUR",
+    "secType": "CASH",
+    "expiry": "",
+    "strike": 0,
+    "right": "",
+    "multiplier": "",
+    "exchange": "IDEALPRO",
+    "primaryExchange": "",
+    "currency": "USD",
+    "localSymbol": "EUR.USD",
+    "tradingClass": "EUR.USD",
+    "includeExpired": false,
+    "secIdType": "",
+    "secId": ""
+  },
+  "execution": {
+    "execId": "0001f4e8.56524cba.11.11",
+    "timeString": "20151122  21:30:26",
+    "acctNumber": "DU100000",
+    "exchange": "IDEALPRO",
+    "side": "SLD",
+    "shares": 1000,
+    "price": 1.06185,
+    "permId": 792899999,
+    "clientId": 11,
+    "orderId": 12,
+    "liquidation": 0,
+    "cumQty": 1000,
+    "avgPrice": 1.06185,
+    "orderRef": "",
+    "evRule": "",
+    "evMultiplier": 0
+  }
+}

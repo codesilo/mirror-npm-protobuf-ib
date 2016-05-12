@@ -1,0 +1,25 @@
+{
+  "reqMktData" :
+  {
+    "tickerId": 1,
+    "contract": {
+      "conId": 12087792,
+      "symbol": "EUR",
+      "secType": "CASH",
+      "expiry": "",
+      "strike": 0,
+      "right": "?",
+      "multiplier": "",
+      "exchange": "IDEALPRO",
+      "primaryExchange": "",
+      "currency": "USD",
+      "localSymbol": "EUR.USD",
+      "tradingClass": "EUR.USD",
+      "includeExpired": false,
+      "secIdType": "",
+      "secId": ""
+    },
+    "genericTick": "165",
+    "snapShot": false
+  }
+}

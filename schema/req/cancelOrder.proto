@@ -1,0 +1,5 @@
+package ib.cancelOrder;
+
+message cancelOrder {
+  optional int32 orderId = 1;
+}

@@ -1,0 +1,22 @@
+{
+  "reqContractDetails": {
+    "reqId": 1,
+    "contract": {
+      "conId": 4215230,
+      "symbol": "XLK",
+      "secType": "STK",
+      "expiry": "",
+      "strike": 0,
+      "right": "0",
+      "multiplier": "",
+      "exchange": "",
+      "primaryExchange": "ARCA",
+      "currency": "USD",
+      "localSymbol": "XLK",
+      "tradingClass": "XLK",
+      "includeExpired": false,
+      "secIdType": "",
+      "secId": ""
+    }
+  }
+}

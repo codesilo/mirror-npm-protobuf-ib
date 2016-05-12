@@ -1,0 +1,5 @@
+package ib.cancelRealTimeBars;
+
+message cancelRealTimeBars {
+  optional int32 tickerId = 1;
+}

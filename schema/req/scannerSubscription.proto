@@ -1,0 +1,25 @@
+package ib.scannerSubscription;
+
+message scannerSubscription {
+  optional int32  numberOfRows             = 1  [ default = -1 ];
+  optional string instrument               = 2  [ default = '' ];
+  optional string locationCode             = 3  [ default = '' ];
+  optional string scanCode                 = 4  [ default = '' ];
+  optional double abovePrice               = 5  [ default = 1.7976931348623157e+308 ];
+  optional double belowPrice               = 6  [ default = 1.7976931348623157e+308 ];
+  optional int32  aboveVolume              = 7  [ default = 2147483647 ];
+  optional double marketCapAbove           = 8  [ default = 1.7976931348623157e+308 ];
+  optional double marketCapBelow           = 9  [ default = 1.7976931348623157e+308 ];
+  optional string moodyRatingAbove         = 10 [ default = '' ];
+  optional string moodyRatingBelow         = 11 [ default = '' ];
+  optional string spRatingAbove            = 12 [ default = '' ];
+  optional string spRatingBelow            = 13 [ default = '' ];
+  optional string maturityDateAbove        = 14 [ default = '' ];
+  optional string maturityDateBelow        = 15 [ default = '' ];
+  optional double couponRateAbove          = 16 [ default = 1.7976931348623157e+308 ];
+  optional double couponRateBelow          = 17 [ default = 1.7976931348623157e+308 ];
+  optional int32  excludeConvertible       = 18 [ default = 0 ];
+  optional int32  averageOptionVolumeAbove = 19 [ default = 0 ];
+  optional string scannerSettingPairs      = 20 [ default = '' ];
+  optional string stockTypeFilter          = 21 [ default = '' ];
+}

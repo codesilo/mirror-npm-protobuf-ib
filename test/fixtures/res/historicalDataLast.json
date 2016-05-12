@@ -1,0 +1,13 @@
+{
+  "messageId": "historicalData",
+  "reqId": 1,
+  "date": "finished-20151118  15:30:00-20151120  15:30:00",
+  "open": -1,
+  "high": -1,
+  "low": -1,
+  "close": -1,
+  "volume": -1,
+  "barCount": -1,
+  "WAP": -1,
+  "hasGaps": 0
+}
